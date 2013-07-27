@@ -2,8 +2,8 @@
 
 class Board(tuple):
     """Stores internal representation of a Chess Board"""
-    RANKS = tuple('12345678')
-    FILES = tuple('abcdefgh')
+    RANKS = '12345678'
+    FILES = 'abcdefgh'
 
     def __new__(cls, position=None):
         """
